@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.capternal.news.controller.NewsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Toolbar Title"
+            android:textSize="@dimen/action_bar_text_size" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:id="@+id/view_actionBarLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/toolbar"
+        android:background="@android:color/black"></View>
+
+
+    <ListView
+        android:id="@+id/listView_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_actionBarLine"></ListView>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_retry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_actionBarLine"
+        android:visibility="gone">
+
+        <com.capternal.news.view_helper.CustomButton
+            android:id="@+id/button_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="RETRY" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

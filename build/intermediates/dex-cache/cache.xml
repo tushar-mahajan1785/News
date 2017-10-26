@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/jupitor/Desktop/Prasanna/NewsApp/News/app/libs/httpclient-cache-4.3.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d96ec3034bd8429deaba77229183ffb1532edc1b">
+        <dex dex="/Users/jupitor/Desktop/Prasanna/NewsApp/News/app/build/intermediates/pre-dexed/debug/httpclient-cache-4.3.5_d54d650baca9c8d284304ef3538e679d93b825c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jupitor/Desktop/Prasanna/NewsApp/News/app/libs/httpmime-4.3.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="/Users/jupitor/Desktop/Prasanna/NewsApp/News/app/build/intermediates/pre-dexed/debug/httpmime-4.3.5_17e6a5e3d2aecfab965555457b5b001a1e2aeb23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jupitor/Desktop/Prasanna/NewsApp/News/app/libs/httpcore-4.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="/Users/jupitor/Desktop/Prasanna/NewsApp/News/app/build/intermediates/pre-dexed/debug/httpcore-4.3.2_768cf9d977cd7face45fcab17c13c17b4c1377c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jupitor/Desktop/Prasanna/NewsApp/News/app/libs/httpclient-4.3.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9783d89b8eea20a517a4afc5f979bd2882b54c44">
+        <dex dex="/Users/jupitor/Desktop/Prasanna/NewsApp/News/app/build/intermediates/pre-dexed/debug/httpclient-4.3.5_73f03abd8401d62450195aca2c1af06cf78cb5fd.jar" />
+    </item>
+
+</items>

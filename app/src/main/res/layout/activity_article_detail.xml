@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.capternal.news.controller.ArticleDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@mipmap/view_grey_icon" />
+
+                <com.capternal.news.view_helper.CustomTextView
+                    android:id="@+id/textView_article_detail_view_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="241"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@mipmap/like_grey_icon" />
+
+                <com.capternal.news.view_helper.CustomTextView
+                    android:id="@+id/textView_article_detail_like_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="50"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@mipmap/dislike_grey_icon" />
+
+                <com.capternal.news.view_helper.CustomTextView
+                    android:id="@+id/textView_article_detail_dislike_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <com.capternal.news.view_helper.CustomTextView
+                android:id="@+id/textView_artile_detail_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="7dp"
+                android:paddingTop="10dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_xxlarge"
+                android:textStyle="bold" />
+
+
+            <com.capternal.news.view_helper.CustomTextView
+                android:id="@+id/textView_article_detail_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Article By Jhon Record"
+                android:textColor="@color/colorBlue" />
+
+            <ImageView
+                android:id="@+id/imageView_article_detail_background"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#455445"
+                android:scaleType="centerCrop" />
+
+            <com.capternal.news.view_helper.CustomTextView
+                android:id="@+id/textView_article_detail_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                android:textColor="@color/colorGrey"
+                android:textSize="@dimen/text_size_large" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
